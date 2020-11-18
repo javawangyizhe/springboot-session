@@ -1,0 +1,9 @@
+server:
+  port: 8000
+spring:
+  redis:
+    host: 192.168.188.146
+    password: offcn123
+  session:
+    store-type: redis #session存储方式
+    timeout: 1800 #session有效时间 单位：秒
